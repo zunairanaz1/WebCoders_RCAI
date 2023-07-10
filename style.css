@@ -1,0 +1,184 @@
+/* Universal */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* Navbar  */
+.navbar {
+    height: 5em !important;
+    position: sticky !important;
+    background-color: whitesmoke;
+}
+
+#carouselExampleInterval{
+    width: 100% !important;
+    height: 100% !important;
+}
+#navbarlogo {
+    height: 4em;
+}
+
+#navbarNav {
+    justify-content: end !important;
+}
+
+#navbarNav a {
+    font-size: 22px !important;
+    margin-right: 30px !important;
+    font-weight: bold;
+}
+/* Welcome Part */
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.Welcome {
+    height: 100% !important;
+    width: 105.5% !important;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 105.5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+}
+
+.text-overlay h1 {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+/* Details */
+.Details{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+}
+.DetailsImg{
+    width: 60%;
+}
+.DetailsHead{
+    margin-left: -180%;
+}
+.DetailsPara{
+    margin-top: 2%;
+    font-size: 19px;
+}
+.History{
+    margin-left: 15%;
+}
+.mxhamza{
+    margin-left: 10%;
+}
+.Join{
+    text-decoration: none;
+    color: whitesmoke;
+}
+/* Team Part */
+.TeamImages{
+    height: 20em;
+    width: 20em;
+    margin-left: 80px;
+}
+.Teams{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20;
+}
+.JoinTeam{
+    margin-top: 5%;
+    height: 3.5em;
+    width: 9em;
+    margin-left: 23em;
+    border: none;
+    box-shadow: yellowgreen;
+    font-size: 23px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+.JoinTeam:hover{
+    background-color: rgb(227, 227, 227);
+}
+.BecomeSponsor{
+    margin-top: 2%;
+    height: 3.5em;
+    width: 9em;
+    margin-left: 23em;
+    border: none;
+    box-shadow: yellowgreen;
+    font-size: 23px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: aquamarine; 
+}
+.BecomeSponsor:hover{
+    background-color: rgb(227, 227, 227);
+}
+/* Carousel */
+.CarouselImg{
+    height: 700px !important;
+}
+
+/*Footer*/
+.Sponsors{
+    height: 400px;
+    width: 300px;
+}
+.footer{
+    margin-top: 2%;
+    color: black !important;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    background-color: #e3e3ed;
+    flex-direction: column;
+    align-items: center;
+}
+.MainHead{
+    margin-top: 3%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.footerlink{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    
+    margin-top: 20px;
+}
+.footerlink h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5em;
+}
+.buttomtext{
+    color: grey;
+    width: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.buttomtext p{
+    font-size: 13px;
+}
+
+.buttom{
+    display:flex;
+    justify-content: center;
+    background-color: #e3e3ed;
+    padding: 30px;
+    
+}
